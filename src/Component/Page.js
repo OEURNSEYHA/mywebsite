@@ -82,25 +82,25 @@ function Page() {
 
       <div className='2xl:w-[1400px] m-auto w-[100%]  flex flex-wrap  lg:gap-8 xl:gap-7 gap-6 2xl:gap-7 '>
         <div className='w-[100%] sm:w-[48%] md:w-[48%] lg:w-[31.2%] xl:w-[23.3%] h-[300px] flex flex-col rounded-md overflow-hidden'>
-            <img src='https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=' alt='' className='w-full h-[75%] object-cover'/>
+            <img src='https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=' alt='' className='w-full h-[70%] object-cover'/>
             <div className='p-2 sm:p-4 line-clamp-3'>
               <span className='text-[14px] sm:text-[16px] font-[500] text-gray-500'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</span>
             </div>
         </div>
         <div className='w-[100%] sm:w-[48%] md:w-[48%] lg:w-[31.2%] xl:w-[23.3%] h-[300px] flex flex-col rounded-md overflow-hidden'>
-            <img src='https://images.pexels.com/photos/2125422/pexels-photo-2125422.jpeg?cs=srgb&dl=pexels-hassan-ouajbir-2125422.jpg&fm=jpg' alt='' className='w-full h-[75%] object-cover'/>
+            <img src='https://images.pexels.com/photos/2125422/pexels-photo-2125422.jpeg?cs=srgb&dl=pexels-hassan-ouajbir-2125422.jpg&fm=jpg' alt='' className='w-full h-[70%] object-cover'/>
             <div className='p-2 sm:p-4  line-clamp-3'>
               <span className='text-[14px] sm:text-[16px] font-[500] text-gray-500'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</span>
             </div>
         </div>
         <div className='w-[100%] sm:w-[48%] md:w-[48%] lg:w-[31.2%] xl:w-[23.3%] h-[300px] flex flex-col rounded-md overflow-hidden'>
-            <img src='https://st.depositphotos.com/1400069/2827/i/600/depositphotos_28270335-stock-photo-grass-field-sunset.jpg' alt='' className='w-full h-[75%] object-cover'/>
+            <img src='https://st.depositphotos.com/1400069/2827/i/600/depositphotos_28270335-stock-photo-grass-field-sunset.jpg' alt='' className='w-full h-[70%] object-cover'/>
             <div className='p-2 sm:p-4 line-clamp-3'>
               <span className='text-[14px] sm:text-[16px] font-[500] text-gray-500'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</span>
             </div>
         </div>
         <div className='w-[100%] sm:w-[48%] md:w-[48%] lg:w-[31.2%] xl:w-[23.3%] h-[300px] flex flex-col rounded-md overflow-hidden'>
-            <img src='https://images.unsplash.com/photo-1595966038591-a765111f190f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&w=1000&q=80' alt='' className='w-full h-[75%] object-cover'/>
+            <img src='https://images.unsplash.com/photo-1595966038591-a765111f190f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&w=1000&q=80' alt='' className='w-full h-[70%] object-cover'/>
             <div className='p-2 sm:p-4 line-clamp-3'>
               <span className='text-[14px] sm:text-[16px] font-[500] text-gray-500'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</span>
             </div>
