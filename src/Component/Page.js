@@ -29,9 +29,9 @@ function Page() {
         <div className='flex flex-col gap-10'>
 
           <div className='w-[100%] flex flex-col items-center md:flex md:flex-row md:justify-between gap-5'>
-            <div className='md:w-[70%] w-[100%]'>  
-              <span className='text-[20px] font-[400] leading-10 '>
-              <span className='text-[35px] font-[400]'>  Hi, </span> <span className='text-[28px] sm:text-[35px] font-[700] text-blue-500'> I'm OEURN SEYHA </span> <br/>
+            <div className='md:w-[70%] w-[100%] text-left'>  
+              <span className='text-[20px] font-[400] leading-10 text-left '>
+              <span className='text-[35px] font-[400] text-left'>  Hi, </span> <span className=' text-[28px] text-left sm:text-[35px] font-[700] text-blue-500'> I'm OEURN SEYHA </span> <br/>
               I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.
               </span>
             </div>
