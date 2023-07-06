@@ -1,30 +1,10 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import photo from'../Image/mind.jpg'
+import { Link } from 'react-router-dom';
 // import {useTypewriter} from're
 
 function Page() {
-  const handleDownload = () => {
-    // Create a fake PDF file content (replace with your own PDF generation logic)
-    const pdfContent = 'Fake PDF content';
-
-    // Create a Blob object from the PDF content
-    const blob = new Blob([pdfContent], { type: 'application/pdf' });
-
-    // Create a URL for the Blob object
-    const url = URL.createObjectURL(blob);
-
-    // Create a link element
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'seyha.pdf'; // Set the desired filename here
-
-    // Programmatically trigger a click event on the link element
-    link.click();
-
-    // Clean up the URL and link
-    URL.revokeObjectURL(url);
-    link.remove();
-  };
+  
   return (
     <>
    
@@ -34,10 +14,11 @@ function Page() {
           <h1 className='text-[25px] md:text-[28px] lg:text-[40px] font-[300]'> Hi!, I'm  OEURN SEYHA</h1>
           <span className='text-[40px] md:text-[40px]  lg:text-[60px] xl:text-[75px] font-[800]'> WEB DEVELOPER</span>
           <span className='text-[16px] lg:text-[20px] font-[400] mb-2'>Based in  PHNOM PENH</span>
-          <button 
+          <a href='seyha.pdf' download='seyha.pdf' 
           className=' bg-gray-700 text-white px-4 py-2 rounded-[25px] text-[13px]'
-          onClick={()=>{handleDownload()}}
-          >Download CV</button>
+        
+          >Download CV</a>
+          
         </div>
         <div className='w-[100%] h-[50%] flex justify-center  md:h-0 md:w-[50%] md:flex md:items-center md:justify-end md:p-20'>
           <img src={photo} alt='' className=' w-[200px] h-[200px]   md:w-[210px] md:h-[210p/x] lg:w-[350px]  lg:h-[350px] xl:w-[450px]  xl:h-[450px]  object-cover rounded-[100%] border-[10px]'/>
