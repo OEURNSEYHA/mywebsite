@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FacebookShareButton } from "react-share";
 
 function Page1() {
-  const shareUrl = "https://example.com";
+  const shareUrl = "https://seyhaoeurn.pages.dev/aboutme";
   return (
     <>
       <div className="2xl:w-[1400px] w-[100%] h-auto m-auto flex md:flex-row flex-col gap-5 py-5 px-5 2xl:px-0">
