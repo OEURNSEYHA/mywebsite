@@ -1,7 +1,5 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import photo from'../Image/mind.jpg'
-import { Link } from 'react-router-dom';
-// import {useTypewriter} from're
 
 function Page() {
   
