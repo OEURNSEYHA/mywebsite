@@ -1,6 +1,6 @@
 import React from 'react'
 import photo from'../Image/mind.jpg'
-
+import { isMobile } from 'react-device-detect'
 function Page() {
   
   return (
@@ -13,9 +13,9 @@ function Page() {
           <span className='text-[40px] md:text-[40px]  lg:text-[60px] xl:text-[75px] font-[800]'> WEB DEVELOPER</span>
           <span className='text-[16px] lg:text-[20px] font-[400] mb-2'>Based in  PHNOM PENH</span>
           <a href='seyha.pdf' download='seyha.pdf' 
-          className=' bg-gray-700 text-white px-4 py-2 rounded-[25px] text-[13px]'
+          className= {isMobile  ? 'bg-gray-600 text-white px-4 py-2 rounded-[25px] text-[13px]' : 'bg-gray-900 text-white px-4 py-2 rounded-[25px] text-[13px]'}
         
-          >Download CV</a>
+          > Download CV</a>
           
         </div>
         <div className='w-[100%] h-[50%] flex justify-center  md:h-0 md:w-[50%] md:flex md:items-center md:justify-end md:p-20'>
