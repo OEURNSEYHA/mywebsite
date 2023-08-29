@@ -37,7 +37,7 @@ function Page() {
             <div className='md:w-[70%] w-[100%] text-left'>  
               <span className='text-[20px] font-[400] leading-10 text-left '>
               <span className='text-[35px] font-[400] text-left'>  Hi, </span> <span className=' text-[28px] text-left sm:text-[35px] font-[700] text-blue-500'> I'm OEURN SEYHA </span> <br/>
-              I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.
+              I'm a developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.
               </span>
             </div>
             <div className='md:w-[30%] w-[100%] flex justify-center md:justify-end items-center'>
@@ -115,7 +115,7 @@ function Page() {
       </div>
     </div>
 
-    <div className='mt-20 bg-slate-100 w-[100%] p-5' id='skill'>
+    <div className='mt-20 mb-5 bg-slate-100 w-[100%] p-5' id='skill'>
       <div className='flex justify-center items-center'>
         <span className='text-[28px] md:text-[30px] font-[600] uppercase'> My Skill </span>
       </div>
