@@ -3,12 +3,16 @@ import myphoto from "../Image/mind.jpg";
 import { FaFacebookF, FaTelegram, FaShare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FacebookShareButton } from "react-share";
+import { Helmet } from "react-helmet-async";
 // import QRCode from 'qrcode.react';
 function Page1() {
   const shareUrl = "https://seyhaoeurn.pages.dev/aboutme";
   // const url = "https://seyhaoeurn.pages.dev";
   return (
     <>
+     <Helmet>
+        <title>About Page</title>
+      </Helmet>
       <div className="2xl:w-[1400px] w-[100%] h-auto m-auto flex md:flex-row flex-col gap-5 py-5 px-5 2xl:px-0">
       {/* <QRCode /> */}
         <div className="w-[100%] md:w-[30%] lg:w-[20%] h-fit bg-white rounded-[10px] overflow-hidden shadow-sm">

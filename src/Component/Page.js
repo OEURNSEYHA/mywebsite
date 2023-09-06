@@ -1,11 +1,12 @@
 import React from 'react'
 import photo from'../Image/mind.jpg'
 import { isMobile } from 'react-device-detect'
+import { Helmet } from 'react-helmet-async'
 function Page() {
   
   return (
     <>
-   
+    <Helmet>  <title>Home Page</title> </Helmet>
    <div className='w-[100%] h-auto bg-sky-200 flex justify-center items-center xl:py-[111px] py-5' id='home'>
       <div className='flex flex-col h-auto gap-5 md:flex md:flex-row md:justify-between md:items-center w-[1400px]  px-5 2xl:px-0'>
         <div className='w-[100%] h-49%] flex flex-col items-center  md:h-auto md:w-[50%] md:py-40 md:flex md:flex-col md:gap-2'>
@@ -16,7 +17,6 @@ function Page() {
           className= {isMobile  ? 'bg-gray-600 text-white px-4 py-2 rounded-[25px] text-[13px]' : 'bg-gray-900 text-white px-4 py-2 rounded-[25px] text-[13px]'}
         
           > Download CV</a>
-          
         </div>
         <div className='w-[100%] h-[50%] flex justify-center  md:h-0 md:w-[50%] md:flex md:items-center md:justify-end md:p-20'>
           <img src={photo} alt='' className=' w-[200px] h-[200px]   md:w-[210px] md:h-[210p/x] lg:w-[350px]  lg:h-[350px] xl:w-[450px]  xl:h-[450px]  object-cover rounded-[100%] border-[10px]'/>
