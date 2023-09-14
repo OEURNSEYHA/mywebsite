@@ -14,9 +14,9 @@ function Page() {
           <span className='text-[40px] md:text-[40px]  lg:text-[60px] xl:text-[75px] font-[800]'> WEB DEVELOPER</span>
           <span className='text-[16px] lg:text-[20px] font-[400] mb-2'>Based in  PHNOM PENH</span>
           <a href='seyha.pdf' download='seyha.pdf' 
-          className= {isMobile  ? 'bg-gray-600 text-white px-4 py-2 rounded-[25px] text-[13px]' : 'bg-gray-900 text-white px-4 py-2 rounded-[25px] text-[13px]'}
+          className= {isMobile  ? 'bg-gray-500 text-white px-4 py-2 rounded-[25px] text-[13px]' : 'bg-gray-700 text-white px-4 py-2 rounded-[25px] text-[13px]'}
         
-          > Download CV</a>
+          > Download CV </a>
         </div>
         <div className='w-[100%] h-[50%] flex justify-center  md:h-0 md:w-[50%] md:flex md:items-center md:justify-end md:p-20'>
           <img src={photo} alt='' className=' w-[200px] h-[200px]   md:w-[210px] md:h-[210p/x] lg:w-[350px]  lg:h-[350px] xl:w-[450px]  xl:h-[450px]  object-cover rounded-[100%] border-[10px]'/>
