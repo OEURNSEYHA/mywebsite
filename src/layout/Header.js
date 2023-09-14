@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <>
-      <div className="w-full bg-slate-300 z-10 sticky top-0 ">
+      <div className="w-full bg-slate-500 z-10 sticky top-0 text-white ">
         <div className=" m-auto flex flex-wrap w-[100%] px-5 py-3 2xl:px-0 2xl:w-[1400px]   items-center">
           <div className="w-[50%] sm:w-[20%] flex items-center ">
             {menuBar ? (
@@ -47,7 +47,7 @@ function Header() {
             <div
               className={
                 menuBar
-                  ? "sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-300 sm:text-black fixed top-[64px]  left-[100%] bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5"
+                  ? "sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-500 sm:text-black fixed top-[64px]  left-[100%] bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5"
                   : "fixed top-[64px]  left-0 bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5  sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-100 sm:text-black  "
               }
             >
@@ -57,8 +57,8 @@ function Header() {
             <div
               className={
                 menuBar
-                  ? "sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-300 sm:text-black fixed top-[64px]  left-[100%] bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5"
-                  : "fixed top-[64px]  left-0 bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5  sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-100 sm:text-black  "
+                  ? "sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-500 fixed top-[64px]  left-[100%] bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5"
+                  : "fixed top-[64px]  left-0 bg-slate-600 w-[100%] text-white flex flex-col px-5 py-4 gap-5  sm:w-[60%] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6 sm:top-0 sm:left-0 sm:relative sm:bg-slate-100  "
               }
             >
               <Link
