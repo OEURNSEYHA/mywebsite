@@ -98,7 +98,7 @@ function Header() {
               <img
                 src={myphoto}
                 alt=""
-                className="w-[40px] h-[40px] md:w-[50px] md:h-[50px]  object-cover rounded-[100%]"
+                className="w-[40px] h-[40px] md:w-[50px] md:h-[50px]  object-cover rounded-[100%] border-[1.5px] border-white"
               />
             </Link>
           </div>
