@@ -10,7 +10,7 @@ function Header() {
   const toggleMenubar = () => {
     setMenubar((menuBar) => !menuBar);
   };
-
+localStorage.setItem("test", "hllloeeelll")
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth" });
