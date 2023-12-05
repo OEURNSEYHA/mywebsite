@@ -9,6 +9,7 @@ import NotFound from "./Component/NotFound";
 function App() {
   return (
     <div className="App">
+      
       <Header />
 
       <Routes>
@@ -16,7 +17,7 @@ function App() {
         <Route path="/aboutme" element={<Page1 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-
+     
       <Footer />
     </div>
   );
