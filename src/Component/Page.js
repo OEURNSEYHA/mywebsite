@@ -75,13 +75,10 @@ function Page() {
                     {" "}
                     I'm OEURN SEYHA{" "}
                   </span>{" "}
-                  <br />
-                  I'm a developer with a passion for web design. I enjoy
-                  developing simple, clean and slick websites that provide real
-                  value to the end user. Thousands of clients have procured
-                  exceptional results while working with me. Delivering work
-                  within time and budget which meets client’s requirements is
-                  our moto.
+                  <br />I am a developer with a passion for website design. I
+                  enjoy creating simple, clean and smooth websites that provide
+                  real value to users. Not only that, I also like to analyze as
+                  well as solve problems.
                 </span>
               </div>
               <div className="md:w-[30%] w-[100%] flex justify-center md:justify-end items-center">
@@ -241,9 +238,9 @@ function Page() {
               <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 PHP
               </div>
-              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              {/* <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 LARAVEL
-              </div>
+              </div> */}
               <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 NODE JS
               </div>
