@@ -32,8 +32,8 @@ function Page() {
               Based in PHNOM PENH
             </span>
             <a
-              href="seyha.pdf"
-              download="seyha.pdf"
+              href="oeurnseyha(CV).pdf"
+              download="oeurnseyha(CV).pdf"
               className={
                 isMobile
                   ? "bg-gray-500 text-white px-4 py-2 rounded-[25px] text-[13px]"
