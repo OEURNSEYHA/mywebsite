@@ -1,6 +1,6 @@
 import React from "react";
 import myphoto from "../Image/mind.jpg";
-import { FaFacebookF, FaTelegram, FaShare } from "react-icons/fa";
+import { FaFacebookF, FaTelegram, FaShare, FaGithub } from "react-icons/fa";
 import { Link, Outlet } from "react-router-dom";
 import { FacebookShareButton } from "react-share";
 import { Helmet } from "react-helmet-async";
@@ -32,6 +32,13 @@ function Page1() {
           <div className="h-[250px] relative">
             <img src={myphoto} alt="" className="w-full h-full object-cover" />
             <div className="absolute left-0 top-0 w-full h-full bg-[#00000020] flex flex-row gap-3 items-end justify-end p-5 ">
+            <Link
+                to={`https://github.com/OEURNSEYHA`}
+                target="blang"
+                className="w-[30px] h-[30px] bg-white rounded-full flex justify-center items-center text-blue-800 text-[20px]"
+              >
+                <FaGithub />
+              </Link>
               <Link
                 to={`https://www.facebook.com/seyha.oeun`}
                 target="blang"
