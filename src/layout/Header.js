@@ -22,7 +22,7 @@ function Header() {
   return (
     <>
       <div className="w-full bg-gray-800 z-10 sticky top-0 text-white ">
-        <div className=" m-auto flex flex-wrap w-[100%] px-5 py-3 2xl:px-0 2xl:w-[1400px]   items-center">
+        <div className=" m-auto flex flex-wrap w-[100%] px-5 py-3 2xl:px-0 xl:w-[1400px]   items-center">
           <div className="w-[50%] sm:w-[20%] flex items-center ">
             {menuBar ? (
               <AiOutlineMenu
@@ -78,10 +78,10 @@ function Header() {
                 ABOUT{" "}
               </Link>
               <Link
-                onClick={() => scrollToSection("project")}
+                onClick={() => scrollToSection("resume")}
                 className="text-[16px] font-[700]"
               >
-                PROJECT{" "}
+                RESUME{" "}
               </Link>
               <Link
                 onClick={() => scrollToSection("skill")}
