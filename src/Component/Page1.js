@@ -55,7 +55,7 @@ function Page1() {
               </Link>
 
               <FacebookShareButton
-                url={shareUrl}
+                url={"https://seyhaoeurn.pages.dev"}
                 quote="Please share this post"
                 hashtag={myphoto}
                 className="w-[30px] h-[30px] bg-white rounded-full flex justify-center items-center text-blue-800 text-[20px]"
