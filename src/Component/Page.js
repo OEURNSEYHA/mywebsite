@@ -251,7 +251,7 @@ function Page() {
                 </div>
                 <h4 class="font-bold text-gray-800">Seyha OEURN</h4>
                 <p class="text-gray-500 italic text-left">
-                  Experienced Full Stack Web Developer with + years of building
+                  Experienced Full Stack Web Developer with 2+ years of building
                   scalable web applications using modern technologies.
                 </p>
                 <ul class="mt-3 text-gray-700 p-0 flex flex-col items-start gap-2">
