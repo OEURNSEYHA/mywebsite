@@ -255,8 +255,8 @@ function Page() {
                   scalable web applications using modern technologies.
                 </p>
                 <ul class="mt-3 text-gray-700 p-0 flex flex-col items-start gap-2">
-                  <li>📍 Location: Your City, Your Country</li>
-                  <li>📞 Phone: +123 456 7890</li>
+                  <li>📍 Location: Phnom Penh</li>
+                  <li>📞 Phone: 017431324</li>
                   <li>📧 Email: seyhaoeurn.deve@gmail.com</li>
                 </ul>
               </div>
@@ -505,14 +505,14 @@ function Page() {
         </div>
       </div> */}
 
-      <div className="mt-20 mb-5  w-[100%] xl:w-[1200px] m-auto font-heading" id="skill">
+      <div className="mt-20 mb-5  w-[100%] xl:w-[1200px] m-auto font-heading" id="skill ">
         <div className="flex justify-center items-center">
           <span className="text-[28px] md:text-[30px] font-[600] uppercase">
             {" "}
             My Skill{" "}
           </span>
         </div>
-        <div className="2xl:w-[1400px] w-[100%] m-auto py-5 ">
+        <div className="2xl:w-[1400px] w-[100%] m-auto py-5 px-3">
           <div className="flex flex-col gap-2">
             <div className="flex flex-wrap">
               <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2  text-white">
