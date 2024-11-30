@@ -382,7 +382,7 @@ function Page() {
                   Mobile financial system
                 </p>
                 <p class="text-gray-500 italic text-left">
-                 Wing Bank for cambodia, 2022 - 2024
+                 Wing Bank for cambodia, 2024
                 </p>
                 <ul class="mt-2 text-gray-700 list-disc pl-4">
                   <li className=" text-left">
