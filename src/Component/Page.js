@@ -505,7 +505,7 @@ function Page() {
         </div>
       </div> */}
 
-      <div className="mt-20 mb-5  w-[100%] xl:w-[1200px] m-auto font-heading" id="skill ">
+      <div className="mt-20 mb-5  w-[100%] xl:w-[1200px] m-auto font-heading" id="skill">
         <div className="flex justify-center items-center">
           <span className="text-[28px] md:text-[30px] font-[600] uppercase">
             {" "}

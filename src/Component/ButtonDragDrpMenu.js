@@ -128,10 +128,11 @@ function ButtonDragDrpMenu() {
               🌱 Resume
             </Link>
           </li>
+       
           <li className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg">
             <Link href="#" className="block text-gray-700" to={urlOther ? "/" : "#"}
                 onClick={() => scrollToSection("skill")}>
-              💼 Skills
+              💼 Skill
             </Link>
           </li>
         </ul>
