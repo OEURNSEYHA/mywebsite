@@ -257,7 +257,7 @@ function Page() {
                 <ul class="mt-3 text-gray-700 p-0 flex flex-col items-start gap-2">
                   <li>📍 Location: Phnom Penh</li>
                   <li>📞 Phone: 017431324</li>
-                  <li>📧 Email: seyhaoeurn.deve@gmail.com</li>
+                  <li>📧 Email: <a href="mailto:email@example.com" class="text-blue-500">seyhaoeurn.dev@gmail.com</a> </li>
                 </ul>
               </div>
             </div>
