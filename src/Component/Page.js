@@ -378,17 +378,16 @@ function Page() {
                 <h4 class="font-bold text-gray-800 text-left">
                   Junior Web Developer
                 </h4>
-                <p className=" text-left text-gray-800 mb-2">
-                  Mobile financial system
-                </p>
                 <p class="text-gray-500 italic text-left">
                  Wing Bank for cambodia, 2024
                 </p>
+                <p className=" text-left text-gray-800 mb-2">
+                  Mobile financial system
+                </p>
                 <ul class="mt-2 text-gray-700 list-disc pl-4">
                   <li className=" text-left">
-                    Tech Stack: Java, Spring Boot ,Unit Test, Intergration test, Karate Test
+                    Tech Stack: Java, Spring Boot ,Unit Test, Intergration test, API Test
                   </li>
-                 
                 </ul>
               </div>
               <div class="relative pl-6 mb-6">
@@ -397,14 +396,14 @@ function Page() {
                 <h4 class="font-bold text-gray-800 text-left">
                   Junior JavaScript Web Developer
                 </h4>
+                <p class="text-gray-500 italic text-left">
+                  Dolpin Tek, 2022 - 2024
+                </p>
                 <p className=" text-left text-gray-800 mb-2">
-                  {" "}
+                
                   Developed a business matching website so that every trader can
                   sell all his products, hire and reduce company work, and join
                   the merchants in the same business to share with customers...
-                </p>
-                <p class="text-gray-500 italic text-left">
-                  Dolpin Tek, 2022 - 2024
                 </p>
                 <ul class="mt-2 text-gray-700 list-disc pl-4">
                   <li className=" text-left">
