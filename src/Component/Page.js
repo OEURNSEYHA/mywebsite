@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../Image/mind.jpg";
+// import photo from "../Image/mind.jpg";
 import myPhoto from "../Image/image.png";
 import photo2 from "../Image/DSC_34133.jpg";
 import { isMobile } from "react-device-detect";
