@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from "../Image/image.png";
+import photo from "../Image/mind.jpg";
 import photo2 from "../Image/DSC_34133.jpg";
 import { isMobile } from "react-device-detect";
 import { Helmet } from "react-helmet-async";
@@ -47,7 +47,7 @@ function Page() {
           </div>
           <div className="w-[100%] h-[50%] flex justify-center  md:h-0 md:w-[50%] md:flex md:items-center md:justify-end md:p-20">
             <img
-              src={myPhoto}
+              src={photo}
               alt=""
               className=" w-[200px] h-[200px]   md:w-[210px] md:h-[210p/x] lg:w-[350px]  lg:h-[350px] xl:w-[450px]  xl:h-[450px]  object-cover rounded-[100%] border-[10px]"
             />
@@ -133,11 +133,11 @@ function Page() {
         </div>
       </div> */}
 
-      <section className=" xl:w-[1300px] mx-auto px-4 py-10 " id="about">
-        <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold text-gray-800 relative inline-block font-heading ">
+      <section class=" xl:w-[1300px] mx-auto px-4 py-10 " id="about">
+        <div class="text-center mb-10">
+          <h2 class="text-4xl font-bold text-gray-800 relative inline-block font-heading ">
             About Me
-            <span className="absolute left-0 bottom-[-5px] h-1 w-16 bg-blue-500 rounded "></span>
+            <span class="absolute left-0 bottom-[-5px] h-1 w-16 bg-blue-500 rounded "></span>
           </h2>
 
           <p class="text-gray-500 mt-3 ">
@@ -257,12 +257,7 @@ function Page() {
                 <ul class="mt-3 text-gray-700 p-0 flex flex-col items-start gap-2">
                   <li>📍 Location: Phnom Penh</li>
                   <li>📞 Phone: 017431324</li>
-                  <li>
-                    📧 Email:{" "}
-                    <a href="mailto:email@example.com" class="text-blue-500">
-                      seyhaoeurn.dev@gmail.com
-                    </a>{" "}
-                  </li>
+                  <li>📧 Email: <a href="mailto:email@example.com" class="text-blue-500">seyhaoeurn.dev@gmail.com</a> </li>
                 </ul>
               </div>
             </div>
@@ -380,46 +375,18 @@ function Page() {
               <div class="relative pl-6 mb-6">
                 <span class="absolute text-left left-0 top-1.5 w-4 h-4 border-[2px] border-blue-600  rounded-full"></span>
                 <div className="h-full  w-[2px] bg-blue-600  absolute left-[7px] top-[22px]"></div>
-                <h4 class="font-bold text-gray-800 text-left">QA Engineer</h4>
-                <p class="text-gray-500 italic text-left">
-                  Wing Bank for cambodia, 2024
-                </p>
-                <p className=" text-left text-gray-800 mb-2">
-                  Mobile financial system
-                </p>
-                <ul class="mt-2 text-gray-700 list-disc pl-4">
-                  <li className=" text-left">
-                  As a QA Engineer, I worked on ensuring the <b>functionality</b>, <b>security</b>, <b>performance</b>, and <b>reliability</b> of banking applications by implementing test automation and validation strategies. I utilized tools such as Robot Framework, Selenium, JMeter, Postman, and Karate to conduct thorough API, UI, and performance testing.
-                  </li>
-                 
-                </ul>
-              </div>
-              <div class="relative pl-6 mb-6">
-                <span class="absolute text-left left-0 top-1.5 w-4 h-4 border-[2px] border-blue-600  rounded-full"></span>
-                <div className="h-full  w-[2px] bg-blue-600  absolute left-[7px] top-[22px]"></div>
                 <h4 class="font-bold text-gray-800 text-left">
-                  Web Developer Apprentice
+                  Junior Web Developer
                 </h4>
                 <p class="text-gray-500 italic text-left">
-                  Wing Bank for cambodia, 2024
+                 Wing Bank for cambodia, 2024
                 </p>
                 <p className=" text-left text-gray-800 mb-2">
                   Mobile financial system
                 </p>
                 <ul class="mt-2 text-gray-700 list-disc pl-4">
-                <li className=" text-left">
-                    Backend Development: During my apprenticeship at a
-                    bank, I contributed to the development of a mobile banking
-                    system API (Payment Limit), enabling customers to set
-                    transaction limits using FaceID and PIN. The system ensures
-                    secure, service-specific threshold management for a seamless
-                    banking experience.
-                  </li>
                   <li className=" text-left">
-                    Automation Testing Performed automation testing on the App
-                    Wing eKYC solution, validating API fields and ensuring
-                    compliance with security standards to enhance system
-                    reliability and data protection.
+                    Tech Stack: Java, Spring Boot ,Unit Test, Intergration test, API Test
                   </li>
                 </ul>
               </div>
@@ -433,6 +400,7 @@ function Page() {
                   Dolpin Tek, 2022 - 2024
                 </p>
                 <p className=" text-left text-gray-800 mb-2">
+                
                   Developed a business matching website so that every trader can
                   sell all his products, hire and reduce company work, and join
                   the merchants in the same business to share with customers...
@@ -536,10 +504,7 @@ function Page() {
         </div>
       </div> */}
 
-      <div
-        className="mt-20 mb-5  w-[100%] xl:w-[1200px] m-auto font-heading"
-        id="skill"
-      >
+      <div className="mt-20 mb-5  w-[100%] xl:w-[1200px] m-auto font-heading" id="skill">
         <div className="flex justify-center items-center">
           <span className="text-[28px] md:text-[30px] font-[600] uppercase">
             {" "}
@@ -576,6 +541,7 @@ function Page() {
               <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 NEXT JS
               </div>
+              
             </div>
           </div>
 
@@ -590,72 +556,60 @@ function Page() {
               <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 NODE JS
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 EXPRESS JS
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 JAVA
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Spring Boot
               </div>
-              <div class="  uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 MY SQL
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 MONGO DB
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 AWS
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 CI/CD
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 DOCKER
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Karate Test
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Supert Test
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Jest
               </div>
               <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
-                Junit
-              </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
-                JMETER
-              </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
-              Selenium
-              </div>
-              <div class="uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
-              ROBOT FRAMEWORK
+               Junit
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-2 mt-3">
             <div className="flex flex-wrap">
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+            <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Story Book
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Git
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Git Hub
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 Git Lab
               </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
+              <div class=" border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
                 BitBucket
-              </div>
-              <div class=" uppercase border border-gray-300  bg-gray-400 focus:ring-4 rounded-full  px-5 py-2.5 mr-2 mb-2 text-white">
-                Appium
               </div>
             </div>
           </div>
