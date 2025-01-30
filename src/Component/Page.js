@@ -1,5 +1,4 @@
 import React from "react";
-// import photo from "../Image/mind.jpg";
 import myPhoto from "../Image/image.png";
 import photo2 from "../Image/DSC_34133.jpg";
 import { isMobile } from "react-device-detect";
@@ -134,11 +133,11 @@ function Page() {
         </div>
       </div> */}
 
-      <section class=" xl:w-[1300px] mx-auto px-4 py-10 " id="about">
-        <div class="text-center mb-10">
-          <h2 class="text-4xl font-bold text-gray-800 relative inline-block font-heading ">
+      <section className=" xl:w-[1300px] mx-auto px-4 py-10 " id="about">
+        <div className="text-center mb-10">
+          <h2 className="text-4xl font-bold text-gray-800 relative inline-block font-heading ">
             About Me
-            <span class="absolute left-0 bottom-[-5px] h-1 w-16 bg-blue-500 rounded "></span>
+            <span className="absolute left-0 bottom-[-5px] h-1 w-16 bg-blue-500 rounded "></span>
           </h2>
 
           <p class="text-gray-500 mt-3 ">
